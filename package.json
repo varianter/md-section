@@ -1,0 +1,19 @@
+{
+  "name": "@variant/md-section",
+  "version": "1.0.0",
+  "description": "Get specific sections of markdown files based on headings.",
+  "main": "md-section.js",
+  "scripts": {
+    "test": "ava tests"
+  },
+  "keywords": [
+    "markdown",
+    "markdown section",
+    "markdown parsing"
+  ],
+  "author": "Mikael Brevik <mb@variant.no>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
+}
