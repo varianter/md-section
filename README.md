@@ -51,7 +51,7 @@ Content 2
 `;
 
 const { getHeadlines, getSection } = require("md-sections");
-const headlines = getHeadlines(markdown);
+const headlines = getHeadlines(markdown, { minLevel: 2, maxLevel: 2 });
 
 console.log(headlines);
 // [{ level: 2, content: "Sub title 1" }, { level: 2, content: "Sub title 2" }];
