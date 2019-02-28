@@ -1,4 +1,4 @@
-# md-section
+# `@variant/md-section`
 
 Get specific sections of markdown files based on headings.
 
@@ -15,7 +15,7 @@ Content 1
 Content 2
 `;
 
-const { getHeadlines, getSection } = require("md-sections");
+const { getHeadlines, getSection } = require("@variant/md-section");
 const headlines = getHeadlines(markdown);
 
 console.log(headlines);
@@ -50,7 +50,7 @@ Content 1.1
 Content 2
 `;
 
-const { getHeadlines, getSection } = require("md-sections");
+const { getHeadlines, getSection } = require("@variant/md-section");
 const headlines = getHeadlines(markdown, { minLevel: 2, maxLevel: 2 });
 
 console.log(headlines);
